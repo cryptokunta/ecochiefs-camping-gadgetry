@@ -3,6 +3,7 @@ import { ProductGrid } from "@/components/ProductGrid";
 import { Benefits } from "@/components/Benefits";
 import { Newsletter } from "@/components/Newsletter";
 import { CampingSection } from "@/components/CampingSection";
+import { TravelersKit } from "@/components/TravelersKit";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Hero />
       <ProductGrid />
       <CampingSection />
+      <TravelersKit />
       <Benefits />
       <Newsletter />
     </div>
